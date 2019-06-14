@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragmentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_creator_title"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <Spinner
+            android:id="@+id/applianceNames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"/>
+        <TextView
+            android:id="@+id/titleStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/start_time"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp">
+            <Spinner
+                android:id="@+id/startHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"/>
+            <TextView
+                android:id="@+id/startMiddle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hour_minute_delimiter"
+                android:layout_column="1"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+            <Spinner
+                android:id="@+id/startMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"/>
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/titleDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/duration"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp">
+            <Spinner
+                android:id="@+id/durationHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                />
+            <TextView
+                android:id="@+id/durationMiddle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/hour_minute_delimiter"
+                android:textSize="15sp"
+                android:textColor="#000000" />
+            <Spinner
+                android:id="@+id/durationMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"/>
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/titleCheckboxes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_title"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <CheckBox
+            android:id="@+id/beforeAndAfter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/before_and_after"/>
+
+        <CheckBox
+            android:id="@+id/beforeOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/before_only"/>
+
+        <CheckBox
+            android:id="@+id/afterOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/after_only"/>
+
+        <TextView
+            android:id="@+id/titleFlexibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/window_size_title"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp">
+            <Spinner
+                android:id="@+id/flexHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                />
+            <TextView
+                android:id="@+id/flexMiddle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/hour_minute_delimiter"
+                android:textSize="15sp"
+                android:textColor="#000000" />
+            <Spinner
+                android:id="@+id/flexMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"/>
+        </GridLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add" />
+
+        <GridLayout
+            android:id="@+id/displayGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:layout_marginEnd="10dp"
+                android:layout_column="0"
+                />
+            <TextView
+                android:id="@+id/startTimeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_time"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:layout_marginEnd="10dp"
+                android:layout_column="1"
+                />
+            <TextView
+                android:id="@+id/durationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/duration"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:layout_marginEnd="10dp"
+                android:layout_column="2"
+                />
+            <TextView
+                android:id="@+id/flexiblityTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flexibility"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:layout_column="3"
+                />
+        </GridLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit_button"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+

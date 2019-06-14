@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Scheduler</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_send">Send</string>
+    <string name="button_add">Add</string>
+    <string name="pick_time">Time Range Start</string>
+    <string name="pick_time_2">Time Range End</string>
+    <string name = "action_settings">Settings</string>
+    <string name = "checkBox">CheckBox</string>
+    <string name = "space"> </string>
+
+    <string name="before_and_after">Before and After</string>
+    <string name="before_only">Before Only</string>
+    <string name="after_only">After Only</string>
+    <string name = "hour_minute_delimiter">:</string>
+    <string name="submit_button">Finish Planning</string>
+    <string name="plan_creator_title">Create Your Plan</string>
+    <string name = "name">Name</string>
+    <string name = "start_time">Start Time</string>
+    <string name = "duration">Duration</string>
+    <string name="flexibility">Flexibility</string>
+    <string name = "add">ADD</string>
+    <string name = "checkbox_title">When, around the input start time, could you otherwise start this task?</string>
+    <string name = "window_size_title">How long before and after the input start time could you otherwise start this task?</string>
+    <string name = "window_size_title_before">How long before the input start time could you otherwise start this task?</string>
+    <string name = "window_size_title_after">How long after the input start time could you otherwise start this task?</string>
+    <string name = "confirm">Confirm</string>
+    <string name = "Choose">Use this plan option</string>
+    <string name = "timeMidnight" >00:00</string>
+    <string name = "time1am" >01:00</string>
+    <string name = "time2am" >02:00</string>
+    <string name = "time3am" >03:00</string>
+    <string name = "time4am" >04:00</string>
+    <string name = "time5am" >05:00</string>
+    <string name = "time6am" >06:00</string>
+    <string name = "time7am" >07:00</string>
+    <string name = "time8am" >08:00</string>
+    <string name = "time9am" >09:00</string>
+    <string name = "time10am" >10:00</string>
+    <string name = "time11am" >11:00</string>
+    <string name = "time12pm" >12:00</string>
+    <string name = "time1pm" >13:00</string>
+    <string name = "time2pm" >14:00</string>
+    <string name = "time3pm" >15:00</string>
+    <string name = "time4pm" >16:00</string>
+    <string name = "time5pm" >17:00</string>
+    <string name = "time6pm" >18:00</string>
+    <string name = "time7pm" >19:00</string>
+    <string name = "time8pm" >20:00</string>
+    <string name = "time9pm" >21:00</string>
+    <string name = "time10pm" >22:00</string>
+    <string name = "time11pm" >23:00</string>
+    <string name = "OK" >OK</string>
+    <string name = "NoNetwork">No internet connection.</string>
+    <string name = "NoNetworkLine2">This app requires an internet connection</string>
+
+</resources>
